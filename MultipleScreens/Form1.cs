@@ -12,6 +12,10 @@ namespace MultipleScreens
 {
     public partial class Form1 : Form
     {
+        public static string name = "Declan";
+        public static string pass = "1234";
+        
+
         public static string inputString;
 
         public Form1()
@@ -19,6 +23,7 @@ namespace MultipleScreens
             InitializeComponent();
             FirstScreen fs = new FirstScreen();
             this.Controls.Add(fs);
+            
         }
     }
 }

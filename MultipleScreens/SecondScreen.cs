@@ -15,7 +15,8 @@ namespace MultipleScreens
         public SecondScreen()
         {
             InitializeComponent();
-            label1.Text = Form1.inputString;
+            label1.Text = "Welcome back Declan!";
+            
         }
     }
 }
